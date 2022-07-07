@@ -1,0 +1,45 @@
+.cabecalho{
+  width: 100%;
+  height: 90px;
+  background-color: #00293F;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.itens_cabecalho{
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+
+}
+
+.btn_sair{
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+}
+
+.btn_voltar{
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.icon:hover{
+  transition: 0.5s;
+  transform: scale(1.1);
+}
+
+.icon:active{
+  transition: 0.25s;
+  transform: scale(1.05);
+}
+
+.icon:focus{
+  outline: none;
+}
+
